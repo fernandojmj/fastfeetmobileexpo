@@ -1,28 +1,34 @@
 {
   "expo": {
-    "name": "fastfeet-mobile-expo",
-    "slug": "fastfeet-mobile-expo",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "fastfeet-mobile",
+    "slug": "fastfeet-mobile",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+
     "splash": {
-      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#7d40e7"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": true,
+      "bundleIdentifier": "com.fjsistemas.fastfeet",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDc-3OPlSPnF4lYf7Q_Yn8xwMH0M86nT_A"
+      }
+    },
+    "android": {
+      "package": "br.fastfeet",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": { "apiKey": "AIzaSyDc-3OPlSPnF4lYf7Q_Yn8xwMH0M86nT_A" }
+      }
+    },
+    "description": ""
   }
 }
