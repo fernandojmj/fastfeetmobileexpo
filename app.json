@@ -19,14 +19,14 @@
       "bundleIdentifier": "com.fjsistemas.fastfeet",
       "buildNumber": "1.0.0",
       "config": {
-        "googleMapsApiKey": "AIzaSyDc-3OPlSPnF4lYf7Q_Yn8xwMH0M86nT_A"
+        "googleMapsApiKey": ""
       }
     },
     "android": {
       "package": "br.fastfeet",
       "versionCode": 1,
       "config": {
-        "googleMaps": { "apiKey": "AIzaSyDc-3OPlSPnF4lYf7Q_Yn8xwMH0M86nT_A" }
+        "googleMaps": { "apiKey": "" }
       }
     },
     "description": ""
